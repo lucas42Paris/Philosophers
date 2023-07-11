@@ -1,0 +1,2 @@
+# philosophers
+![Rating](rating.png)
