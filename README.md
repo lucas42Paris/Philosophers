@@ -26,11 +26,11 @@ __À quoi ressemble l'output__ ?
 
 La sortie du programme doit afficher l'état de chaque philosophe à chaque instant. Chaque message doit être affiché avec un timestamp en millisecondes. Le timestamp indique le temps écoulé depuis le lancement du programme.
 
-`[timestamp_in_ms] [X] has taken a fork  
-[timestamp_in_ms] [X] is eating  
-[timestamp_in_ms] [X] is sleeping  
-[timestamp_in_ms] [X] is thinking  
-[timestamp_in_ms] [X] died`
+`[timestamp_in_ms] [X] has taken a fork`
+`[timestamp_in_ms] [X] is eating`
+`[timestamp_in_ms] [X] is sleeping`
+`[timestamp_in_ms] [X] is thinking`
+`[timestamp_in_ms] [X] died`
 
 __Comment tester le programme__ ?
 
