@@ -1,2 +1,2 @@
-# philosophers
+# Philosophers
 ![Rating](rating.png)
