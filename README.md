@@ -12,6 +12,8 @@ L'objectif est de garantir que chaque philosophe puisse manger sans mourir de fa
 
 Les philosophes ne peuvent pas communiquer entre eux et la simulation prend fin si un philosophe meurt de faim ou si tous les philosophes ont mangé un certain nombre de fois.
 
+![Dining Philosophers Problem](dining_philosophers_problem.png)
+
 __Le programme prends plusieurs paramètres__ :
 
 * `number_of_philosophers` : nombre de philosophes autour de la table.
@@ -48,6 +50,8 @@ Each philosopher needs two forks to eat, but there are as many forks as there ar
 The goal is to ensure that every philosopher can eat without starving, while avoiding deadlock issues.
 
 The philosophers cannot communicate with each other and the simulation ends if a philosopher dies of hunger or if all the philosophers have eaten a certain number of times.
+
+![Dining Philosophers Problem](dining_philosophers_problem.png)
 
 __Parameters of the program__ :
 
