@@ -65,11 +65,11 @@ __What does the output look like__?
 
 The output of the program should display the state of each philosopher at each instant. Each message should be displayed with a timestamp in milliseconds. The timestamp indicates the time elapsed since the launch of the program.
 
-[timestamp_in_ms] [X] took a fork
-[timestamp_in_ms] [X] eats
-[timestamp_in_ms] [X] is sleeping
-[timestamp_in_ms] [X] reflects
-[timestamp_in_ms] [X] died
+`[timestamp_in_ms] [X] has taken a fork`  
+`[timestamp_in_ms] [X] is eating`  
+`[timestamp_in_ms] [X] is sleeping`  
+`[timestamp_in_ms] [X] is thinking`  
+`[timestamp_in_ms] [X] died`
 
 __How to test the program__?
 
