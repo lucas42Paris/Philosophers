@@ -14,7 +14,7 @@ Les philosophes ne peuvent pas communiquer entre eux et la simulation prend fin 
 
 Le programme prends plusieurs paramètres :
 
-* `number_of_philosophers` : le nombre de philosophes autour de la table.
+* `number_of_philosophers` : nombre de philosophes autour de la table.
 * `time_to_die` : nombre en millisecondes représentant le temps qu'un philosophe doit vivre après un repas. Si un philosophe n'a pas commencé à manger time_to_die millisecondes après le début de son dernier repas, ou le début de la simulation, il mourra.
 * `time_to_eat` : nombre en millisecondes représentant le temps qu'un philosophe met pour finir son repas. Pendant ce temps, le philosophe garde ses deux fourchettes à la main.
 * `time_to_sleep` : temps en millisecondes qu'un philosophe passe à dormir.
