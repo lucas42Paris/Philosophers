@@ -2,7 +2,7 @@
 
 🇫🇷
 
-L'objectif du projet "Philosophers" est de se familiariser avec les concepts de __threading__, de __mutexes__ et de __mémoire partagée__ entre processus, en utilisant le langage C.
+L'objectif du projet "Philosophers" est de se familiariser avec les concepts de __threading__, de __mutexes__ et de __mémoire partagée__ entre processus, en utilisant le langage C (le code doit respecter la Norme imposée par 42, voir pdf).
 
 Le défi est de simuler un scénario où plusieurs philosophes sont assis autour d'une table, en alternant entre manger, dormir et penser.
 
@@ -11,8 +11,6 @@ Chaque philosophe a besoin de deux fourchettes pour manger, mais il y a autant d
 L'objectif est de garantir que chaque philosophe puisse manger sans mourir de faim, tout en évitant les problèmes d'interblocage.
 
 Les philosophes ne peuvent pas communiquer entre eux et la simulation prend fin si un philosophe meurt de faim ou si tous les philosophes ont mangé un certain nombre de fois.
-
-Le code doit respecter la Norme imposée par 42 (voir pdf).
 
 <div align="center">
   <img src="/dining_philosophers_problem.png" width="500">
@@ -45,7 +43,7 @@ __Comment tester le programme__ ?
 
 🇺🇸
 
-The goal of the "Philosophers" project is to work with the concepts of __threading__, __mutexes__ and __shared memory__ between processes, using the C language.
+The goal of the "Philosophers" project is to work with the concepts of __threading__, __mutexes__ and __shared memory__ between processes, using the C language (the code must respect the Norm imposed by 42, see pdf).
 
 The challenge is to simulate a scenario where several philosophers are seated around a table, alternating between eating, sleeping and thinking.
 
@@ -54,8 +52,6 @@ Each philosopher needs two forks to eat, but there are as many forks as there ar
 The goal is to ensure that every philosopher can eat without starving, while avoiding deadlock issues.
 
 The philosophers cannot communicate with each other and the simulation ends if a philosopher dies of hunger or if all the philosophers have eaten a certain number of times.
-
-The code must respect the Norm imposed by 42 (see pdf).
 
 <div align="center">
   <img src="/dining_philosophers_problem.png" width="500">
