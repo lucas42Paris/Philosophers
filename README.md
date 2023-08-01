@@ -12,7 +12,7 @@ L'objectif est de garantir que chaque philosophe puisse manger sans mourir de fa
 
 Les philosophes ne peuvent pas communiquer entre eux et la simulation prend fin si un philosophe meurt de faim ou si tous les philosophes ont mangé un certain nombre de fois.
 
-![Dining Philosophers Problem](dining_philosophers_problem.png)
+<img src="/dining_philosophers_problem.png" width="500">
 
 __Le programme prends plusieurs paramètres__ :
 
