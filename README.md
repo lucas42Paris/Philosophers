@@ -12,7 +12,11 @@ L'objectif est de garantir que chaque philosophe puisse manger sans mourir de fa
 
 Les philosophes ne peuvent pas communiquer entre eux et la simulation prend fin si un philosophe meurt de faim ou si tous les philosophes ont mangé un certain nombre de fois.
 
-<img src="/dining_philosophers_problem.png" width="500">
+Le code doit respecter la Norme imposée par 42 (voir pdf).
+
+<div align="center">
+  <img src="/dining_philosophers_problem.png" width="500">
+</div>
 
 __Le programme prends plusieurs paramètres__ :
 
@@ -51,7 +55,11 @@ The goal is to ensure that every philosopher can eat without starving, while avo
 
 The philosophers cannot communicate with each other and the simulation ends if a philosopher dies of hunger or if all the philosophers have eaten a certain number of times.
 
-<img src="/dining_philosophers_problem.png" width="500">
+The code must respect the Norm imposed by 42 (see pdf).
+
+<div align="center">
+  <img src="/dining_philosophers_problem.png" width="500">
+</div>
 
 __Parameters of the program__ :
 
