@@ -51,7 +51,7 @@ The goal is to ensure that every philosopher can eat without starving, while avo
 
 The philosophers cannot communicate with each other and the simulation ends if a philosopher dies of hunger or if all the philosophers have eaten a certain number of times.
 
-![Dining Philosophers Problem](dining_philosophers_problem.png)
+<img src="/dining_philosophers_problem.png" width="500">
 
 __Parameters of the program__ :
 
