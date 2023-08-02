@@ -77,7 +77,7 @@ The output of the program should display the state of each philosopher at each i
 
 __How to test the program__?
 
-* `make` in the philo repository.
+* Enter in the philo directory with `cd` then `make`.
 * Program arguments look like this: `./philo <number_of_philosophers> <time_to_die> <time_to_eat> <time_to_sleep> [number_of_times_each_philosopher_must_eat]`.
 * Example: `./philo 5 800 200 200 5`. In this example, there are 5 philosophers. A philosopher dies if he has not started eating 800 milliseconds after the start of his last meal or since the start of the simulation. It takes 200 milliseconds for a philosopher to eat, and a philosopher sleeps for 200 milliseconds. Each philosopher must eat 5 times for the simulation to end.
 * Another example: `./philo 5 8000 2000 2000`. In this scenario, no philosopher dies and the simulation continues indefinitely. For what ? Because the total time each philosopher spends eating and sleeping (time_to_eat + time_to_sleep) equals 4000 milliseconds, which is less than the time_to_die of 8000 milliseconds. This means that before a philosopher has a chance to die, he has already had time to start a new meal.
