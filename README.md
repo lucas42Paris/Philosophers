@@ -2,7 +2,7 @@
 
 🇫🇷
 
-L'objectif du projet "Philosophers" est de se familiariser avec les concepts de __threading__, de __mutexes__ et de __mémoire partagée__ entre processus, en utilisant le langage C (le code doit respecter la Norme imposée par 42, voir pdf).
+L'objectif du projet Philosophers est de se familiariser avec les concepts de __threading__, de __mutexes__ et de __mémoire partagée__ entre processus, en utilisant le langage C (le code doit respecter la Norme imposée par 42, voir pdf).
 
 Le défi est de simuler un scénario où plusieurs philosophes sont assis autour d'une table, en alternant entre manger, dormir et penser.
 
@@ -43,7 +43,7 @@ __Comment tester le programme__ ?
 
 🇺🇸
 
-The goal of the "Philosophers" project is to work with the concepts of __threading__, __mutexes__ and __shared memory__ between processes, using the C language (the code must respect the Norm imposed by 42, see pdf).
+The goal of the Philosophers project is to work with the concepts of __threading__, __mutexes__ and __shared memory__ between processes, using the C language (the code must respect the Norm imposed by 42, see pdf).
 
 The challenge is to simulate a scenario where several philosophers are seated around a table, alternating between eating, sleeping and thinking.
 
