@@ -36,7 +36,7 @@ La sortie du programme doit afficher l'état de chaque philosophe à chaque inst
 
 __Comment tester le programme__ ?
 
-* `make` à la racine.
+* Entrez dans le dossier philo avec `cd` puis exécutez la commande `make`.
 * Les arguments du programme se présent comme ceci : `./philo <number_of_philosophers> <time_to_die> <time_to_eat> <time_to_sleep> [number_of_times_each_philosopher_must_eat]`.
 * Exemple : `./philo 5 800 200 200 5`. Dans cet exemple, il y a 5 philosophes. Un philosophe meurt s'il n'a pas commencé à manger 800 millisecondes après le début de son dernier repas ou depuis le début de la simulation. Il faut 200 millisecondes à un philosophe pour manger, et un philosophe dort pendant 200 millisecondes. Chaque philosophe doit manger 5 fois pour que la simulation se termine.
 * Autre exemple : `./philo 5 8000 2000 2000`. Dans ce scénario, aucun philosophe ne meurt et la simulation continue indéfiniment. Pourquoi ? Parce que le temps total que chaque philosophe passe à manger et à dormir (time_to_eat + time_to_sleep) est égal à 4000 millisecondes, ce qui est inférieur au time_to_die de 8000 millisecondes. Cela signifie qu'avant qu'un philosophe ait une chance de mourir, il a déjà eu le temps de commencer un nouveau repas.
